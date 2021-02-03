@@ -1,15 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Lobby extends Component {
-  constructor() {
-    super()
-  }
-
-  render() {
+export const Header = () => {
     return (
       <div>
         This is the header
       </div>
     )
-  }
 }
