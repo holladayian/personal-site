@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/Header.scss';
 
 export const Header = () => {
     return (
-      <div>
+      <section class="header">
         This is the header
-      </div>
+      </section>
     )
 }
