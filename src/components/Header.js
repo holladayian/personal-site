@@ -16,6 +16,9 @@ export const Header = () => {
           <Link to= '/about' >
             <button className="about-button">About</button>
           </Link>
+          <Link to= '/contact' >
+            <button className="contact-button">Contact</button>
+          </Link>
         </section>
       </section>
     )
