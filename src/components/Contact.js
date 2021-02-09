@@ -2,10 +2,10 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import '../styles/Header.scss';
 
-export const About = () => {
+export const Contact = () => {
     return (
-      <section class="about">
-        <h1>About</h1>
+      <section class="contact">
+        <h1>Contact</h1>
       </section>
     )
 }
