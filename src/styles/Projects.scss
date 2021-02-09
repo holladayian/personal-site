@@ -1,0 +1,16 @@
+.project-card {
+  height: 30em;
+  width: 70em;
+  border: solid 5px black;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center
+  align-items: center;
+  padding: 3em;
+  margin: 3em;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
