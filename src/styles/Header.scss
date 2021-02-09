@@ -1,6 +1,31 @@
 .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  // justify-content: center;
   width: 100%;
-  // height: 115px;
-  color: black;
-  background-color: rgb(141, 141, 250);
+  height: 10em;
+  color: white;
+  background-color: #335384;
+  border-bottom: 10px solid #0892d0;
+  font-family: Brush Script MT, Brush Script Std, cursive
+}
+
+.intros {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+}
+
+.ian {
+  margin: 0;
+  font-size: 44px;
+}
+
+.button-section {
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
