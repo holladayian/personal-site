@@ -1,7 +1,7 @@
 .project-card {
   height: 30em;
   width: 70em;
-  border: solid 5px black;
+  border: solid 5px #335384;
   display: flex;
   flex-direction: column;
   // justify-content: center
@@ -13,4 +13,14 @@
 .info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr
+}
+
+.projects-button {
+  height: 4em;
+  width: 8em;
+  border: solid 3px orange;
+  color: orange;
+  background-color: white;
+  margin: 1em;
+  font-weight: bold
 }
