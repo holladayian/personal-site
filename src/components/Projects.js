@@ -1,6 +1,7 @@
 import React from 'react';
 // import Redirect from './Redirect.js';
 import { Link, Route, Redirect } from 'react-router-dom';
+import { ImgCarousel } from './ImgCarousel.js';
 import '../styles/Projects.scss';
 
 export const Projects = ({projects}) => {
@@ -24,8 +25,10 @@ export const Projects = ({projects}) => {
           </section>
           <section class="images">
           <h2>Images</h2>
-            <img src={project.images[0].source} />
-            {project.images[0].description}
+          <ImgCarousel images={project.images} />
+            {/* <img src={project.images[scroll()].source} /> */}
+            {/* <img src={project.images[0].source} /> */}
+            {/* {project.images[0].description} */}
           </section>
         </section>
         <section class="buttons">
