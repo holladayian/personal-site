@@ -22,10 +22,10 @@ export class App extends Component{
             source: 'https://media.giphy.com/media/KhQN8qc4TjfDwykk6P/giphy.gif',
             description: 'When the application run, it request the information about all movies within the `componentDidMount` method that runs even before the `App` render on the page. This way we have all the information availabe to display.'
             },
-            // {
-            // source: 'https://media.giphy.com/media/KhQN8qc4TjfDwykk6P/giphy.gif',
-            // description: 'When the application run, it request the information about all movies within the `componentDidMount` method that runs even before the `App` render on the page. This way we have all the information availabe to display.'
-            // }
+            {
+            source: 'https://media.giphy.com/media/KhQN8qc4TjfDwykk6P/giphy.gif',
+            description: "When the user inputs the following crendntial, `name` 'diana', `email`'diana@turing@io', and `password` '111111'. The user is greeted with a welcomin message that shows the user that has logged in succesfully."
+            }
           ]
         }
       ]
