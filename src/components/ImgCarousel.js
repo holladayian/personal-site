@@ -4,25 +4,27 @@ import React, { Component } from 'react';
 export class ImgCarousel extends Component{
   constructor(props) {
     super(props)
-    this.state = {imgIndex: 0}
+    this.state = {imgIndex: 1}
   }
 
   scroll = (direction) => {
     if (this.props.images.length <= 1) {
       return
     }
-    if (direction === "right" && this.state.imgIndex < this.props.images.length) {
-      this.setState({imgIndex: this.state.imgIndex += 1})
-    } else if (direction === "right") {
+    if (direction === "right" && this.state.imgIndex < +(this.props.images.length -= 1)) {
+      console.log('right not .length')
+      this.setState({imgIndex: +(this.state.imgIndex += 1)})
+    } else if (direction === "right" && this.state.imgIndex >= +(this.props.images.length -= 1)) {
       this.setState({imgIndex: 0})
-    }
-    if (direction === "left" && this.state.imgIndex > 0) {
-      this.setState({imgIndex: this.state.imgIndex -= 1})
-    } else if (direction === "left") {
-      console.log('left, !> 0')
-      console.log("this.props.images.length -= 1", this.props.images.length -= 1)
-      this.setState({imgIndex: this.props.images.length --})
-      console.log("after", this.state.imgIndex)
+      console.log('right end')
+    } else if (direction === "left" && this.state.imgIndex > 0) {
+      console.log('left not 0')
+      this.setState({imgIndex: +(this.state.imgIndex -= 1)})
+      console.log(this.state.imgIndex)
+    } else if (direction === "left" && this.state.imgIndex <= 0) {
+      console.log('left end')
+      this.setState({imgIndex: +(this.props.images.length -= 1)})
+      console.log(this.state.imgIndex)
     }
   }
 
