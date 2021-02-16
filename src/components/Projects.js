@@ -10,7 +10,7 @@ export const Projects = ({projects}) => {
     return images.map(image => {
     console.log(image.description)
       return <section>
-                <img src={image.source} />
+                <img src={image.source} className='image' />
                 <p>{image.description}</p>
               </section>
           
@@ -37,7 +37,7 @@ export const Projects = ({projects}) => {
           <section class="images">
           <h2>Images</h2>
 
-          <section>
+          <section className='project-scroll'>
             {displayImages(project.images)}
           </section>
 
