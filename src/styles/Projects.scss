@@ -24,3 +24,15 @@
   margin: 1em;
   font-weight: bold
 }
+
+.image {
+  height: 15em;
+  width: auto;
+}
+
+.project-scroll {
+  display: flex;
+  flex-direction: column;
+  height: 22em;
+  overflow: scroll;
+}
