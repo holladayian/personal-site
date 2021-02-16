@@ -6,6 +6,17 @@ import '../styles/Projects.scss';
 
 export const Projects = ({projects}) => {
 
+  const displayImages = (images) => {
+    return images.map(image => {
+    console.log(image.description)
+      return <section>
+                <img src={image.source} />
+                <p>{image.description}</p>
+              </section>
+          
+    })
+  }
+
   return projects.map(project => {
     return (
       <section class="project-card">
@@ -25,7 +36,15 @@ export const Projects = ({projects}) => {
           </section>
           <section class="images">
           <h2>Images</h2>
-          <ImgCarousel images={project.images} />
+
+          <section>
+            {displayImages(project.images)}
+          </section>
+
+          {/* <ImgCarousel images={project.images} /> */}
+          {}
+
+
             {/* <img src={project.images[scroll()].source} /> */}
             {/* <img src={project.images[0].source} /> */}
             {/* {project.images[0].description} */}
