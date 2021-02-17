@@ -13,12 +13,21 @@ export class App extends Component{
       projects: [
         {
           name: 'Rancid Tomatillos',
-          img: 'imgpath',
-          description: 'Rotten tomatoes knock off',
-          tech: 'JavaScript, React, CSS',
-          deployed: 'http//asrgargaerg',
-          repository: 'http//asfaewfaef'
-      }
+          description: 'Rotten tomatoes knock off. Blah blah blah, blah blah. Blah, blah blah blah, blah, blah blah blah...',
+          tech: ['JavaScript', 'React', 'CSS'],
+          deployed: 'https://rancid-t-omatillos.herokuapp.com/',
+          repository: 'https://github.com/holladayian/ih-rancidtomatillos',
+          images: [
+            {
+            source: 'https://media.giphy.com/media/KhQN8qc4TjfDwykk6P/giphy.gif',
+            description: 'When the application run, it request the information about all movies within the `componentDidMount` method that runs even before the `App` render on the page. This way we have all the information availabe to display.'
+            },
+            {
+            source: 'https://media.giphy.com/media/KhQN8qc4TjfDwykk6P/giphy.gif',
+            description: "When the user inputs the following crendntial, `name` 'diana', `email`'diana@turing@io', and `password` '111111'. The user is greeted with a welcomin message that shows the user that has logged in succesfully."
+            }
+          ]
+        }
       ]
     }
   }
