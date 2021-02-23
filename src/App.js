@@ -27,7 +27,36 @@ export class App extends Component{
             description: "When the user inputs the following crendntial, `name` 'diana', `email`'diana@turing@io', and `password` '111111'. The user is greeted with a welcomin message that shows the user that has logged in succesfully."
             }
           ]
-        }
+        },
+        {
+          name: 'Hang in There',
+          description: 'We designed the functionality of a webpage using JavaScript with some HTML. Most of the HTML and all of the CSS were given to us to start out with. Our project goal was to create a webpage that can save, randomize, and take in user input to generate motivational posters.',
+          tech: ['JavaScript', 'HTML', 'CSS'],
+          deployed: 'https://holladayian.github.io/hang-in-there/',
+          repository: 'https://github.com/holladayian/hang-in-there',
+          images: [
+            {
+            source: '',
+            description: 'This is a picture of our home page. It will load a randomly selected image, title, and quote to create an inspirational poster.'
+            },
+            {
+            source: '',
+            description: "This is the User Input View. Users can input their own image, title, and quote to create a personalized inspirational poster."
+            },
+            {
+            source: '',
+            description: 'Both randomly generated posters and user-created posters can be saved.'
+            },
+            {
+            source: '',
+            description: 'Double clicking on a poster will delete it from the Saved Posters view.'
+            },
+            {
+            source: '',
+            description: 'Leaving an input field blank will result in an alert.'
+            }
+          ]
+        },
       ]
     }
   }
