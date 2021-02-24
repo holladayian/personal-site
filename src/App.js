@@ -109,6 +109,20 @@ export class App extends Component{
             },
           ]
         },
+        // {
+        //   name: 'Travel Tracker',
+        //   // This project was never deployed
+        //   description: '',
+        //   tech: ['JavaScript', 'HTML', 'CSS'],
+        //   deployed: '',
+        //   repository: 'https://github.com/holladayian/travel-tracker-ih',
+        //   images: [
+        //     {
+        //     source: '',
+        //     description: ''
+        //     },
+        //   ]
+        // },
         {
           name: 'Tic-Tac-Toe',
           description: 'For this project, we were required to make a working tic-tac-toe game from scratch. For this we used Javascript, HTML and CSS.',
