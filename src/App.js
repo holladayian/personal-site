@@ -29,6 +29,27 @@ export class App extends Component{
           ]
         },
         {
+          name: 'RomCom',
+          description: 'I designed a webpage that generates a random romcom novel cover, and has functionality to create and save custom covers based on user input.',
+          tech: ['JavaScript', 'React', 'CSS'],
+          deployed: 'https://holladayian.github.io/romcom/',
+          repository: 'https://github.com/holladayian/romcom',
+          images: [
+            {
+            source: '',
+            description: 'This is the home page. It is what you will see when the page loads.'
+            },
+            {
+            source: '',
+            description: "On this page, users can create a custom cover (as weird and cheesy as they like)."
+            },
+            {
+            source: '',
+            description: 'Here is a picture of our saved cover page. You can see a collection of covers that are saved.'
+            }
+          ]
+        },
+        {
           name: 'Hang in There',
           description: 'We designed the functionality of a webpage using JavaScript with some HTML. Most of the HTML and all of the CSS were given to us to start out with. Our project goal was to create a webpage that can save, randomize, and take in user input to generate motivational posters.',
           tech: ['JavaScript', 'HTML', 'CSS'],
