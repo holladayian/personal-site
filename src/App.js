@@ -67,6 +67,23 @@ export class App extends Component{
           ]
         },
         {
+          name: 'Tic-Tac-Toe',
+          description: 'For this project, we were required to make a working tic-tac-toe game from scratch. For this we used Javascript, HTML and CSS.',
+          tech: ['JavaScript', 'HTML', 'CSS'],
+          deployed: 'https://holladayian.github.io/tic-tac-toe/',
+          repository: 'https://github.com/holladayian/tic-tac-toe',
+          images: [
+            {
+            source: '',
+            description: 'This is an image of halfway through a game. You can see it it will show you who\'s current turn it is.'
+            },
+            {
+            source: '',
+            description: "This is an image of a winning game. You can show it updates the DOM with the winning player's token."
+            },
+          ]
+        },
+        {
           name: 'Intention Timer',
           description: 'The goal of this project was to build an application that allows a user to set goals for their health and productivity, tied to an amount of time. Users will select an activity category, set the amount of time they want to spend on that activity, and start the timer. The app will log that activity to keep track of how the user has been spending their time.',
           tech: ['JavaScript', 'React', 'CSS'],
