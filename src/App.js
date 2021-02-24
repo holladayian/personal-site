@@ -12,6 +12,20 @@ export class App extends Component{
     this.state = {
       projects: [
         // {
+        //   name: 'Never Alone',
+        //   // need to deploy?
+        //   description: '',
+        //   tech: ['JavaScript', 'React', 'CSS', 'JSX', 'Jest'],
+        //   deployed: '',
+        //   repository: 'https://github.com/never-alone-turing/FE',
+        //   images: [
+        //     {
+        //     source: '',
+        //     description: ''
+        //     },
+        //   ]
+        // },
+        // {
         //   name: 'Dog Resivour',
         //   // need go go back and fix spelling everywhere
         //   // need to deploy
