@@ -42,6 +42,31 @@ export class App extends Component{
           ]
         },
         {
+          name: 'IdeaBox Generator',
+          description: 'Throughout the project, one of our focuses will be on providing a fluid and responsive client-side interface. To this end, we’ll rely on JavaScript and to implement snappy filtering in the browser, and localStorage to persist our wonderful ideas between sessions. Our goal is to also incorporate an agile workflow by incorporating two weekly sprints.',
+          tech: ['JavaScript', 'HTML', 'CSS'],
+          deployed: 'https://holladayian.github.io/ideabox-generator/',
+          repository: 'https://github.com/holladayian/ideabox-generator',
+          images: [
+            {
+            source: '',
+            description: 'This is the desktop view showing all of the saved cards in the array.'
+            },
+            {
+            source: '',
+            description: "This is the desktop view showing only the starred cards in the array."
+            },
+            {
+            source: '',
+            description: 'This is the desktop view showing only the searched cards in the array.'
+            },
+            {
+            source: '',
+            description: 'This is the mobile view.'
+            },
+          ]
+        },
+        {
           name: 'Intention Timer',
           description: 'The goal of this project was to build an application that allows a user to set goals for their health and productivity, tied to an amount of time. Users will select an activity category, set the amount of time they want to spend on that activity, and start the timer. The app will log that activity to keep track of how the user has been spending their time.',
           tech: ['JavaScript', 'React', 'CSS'],
