@@ -28,6 +28,20 @@ export class App extends Component{
             }
           ]
         },
+        // {
+        //   name: 'What\'s Cookin\'?',
+        //   description: "The \"What's Cookin\" project is a website that uses hosted datasets to allow a randomized user to scroll through a list of recipes and "Favorite" them, add them to a list of "Recipes to cook", review their ingredients and instructions, or search recipes by names and tags",
+        //   tech: ['JavaScript', 'CSS', 'Chai', 'Chai Spies', 'WebPack', 'Babel' ],
+        //  // will have to figure out the deployment on this one
+        //   deployed: '',
+        //   repository: 'https://github.com/holladayian/whats-cookin',
+        //   images: [
+        //     {
+        //     source: '',
+        //     description: ''
+        //     },
+        //   ]
+        // },
         {
           name: 'Will Andy Pick Me?',
           description: 'This was a 3 hour long program competition. The goal was to use the magic 8 ball script form Toy Story to return random answers to questions.',
