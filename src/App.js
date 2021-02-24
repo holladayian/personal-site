@@ -11,6 +11,21 @@ export class App extends Component{
     super(props)
     this.state = {
       projects: [
+        // {
+        //   name: 'Dog Resivour',
+        //   // need go go back and fix spelling everywhere
+        //   // need to deploy
+        //   description: '',
+        //   tech: ['JavaScript', 'React', 'CSS', 'JSX', 'Jest'],
+        //   deployed: '',
+        //   repository: 'https://github.com/holladayian/dogrsreservoir',
+        //   images: [
+        //     {
+        //     source: '',
+        //     description: 'This is an image of the lobby. Here you can chose a name (or be left as guest), and create or join a room.'
+        //     },
+        //   ]
+        // },
         {
           name: 'BangWords',
           description: '',
