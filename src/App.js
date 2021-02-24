@@ -12,6 +12,31 @@ export class App extends Component{
     this.state = {
       projects: [
         {
+          name: 'BangWords',
+          description: '',
+          tech: ['JavaScript', 'React', 'CSS', 'JSX', 'Socket.io', 'Express', 'Jest'],
+          deployed: 'http://greymatteor.github.io/bangwords',
+          repository: 'https://github.com/holladayian/bangwords',
+          images: [
+            {
+            source: '',
+            description: 'This is an image of the lobby. Here you can chose a name (or be left as guest), and create or join a room.'
+            },
+            {
+            source: '',
+            description: "The loading page.."
+            },
+            {
+            source: '',
+            description: "This image represents our game's functionality. It implements a chat feature, counts down the remaining guesses, and updates the DOM when the guesser is correct."
+            },
+            {
+            source: '',
+            description: "This is the winner!"
+            },
+          ]
+        },
+        {
           name: 'Rancid Tomatillos',
           description: 'Rotten tomatoes knock off. Blah blah blah, blah blah. Blah, blah blah blah, blah, blah blah blah...',
           tech: ['JavaScript', 'React', 'CSS', 'JSX'],
