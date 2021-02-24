@@ -29,6 +29,19 @@ export class App extends Component{
           ]
         },
         {
+          name: 'Will Andy Pick Me?',
+          description: 'This was a 3 hour long program competition. The goal was to use the magic 8 ball script form Toy Story to return random answers to questions.',
+          tech: ['JavaScript', 'CSS', 'HTML'],
+          deployed: 'https://holladayian.github.io/will-andy-pick-me/',
+          repository: 'https://github.com/holladayian/will-andy-pick-me',
+          images: [
+            {
+            source: '',
+            description: ''
+            },
+          ]
+        },
+        {
           name: 'Intention Timer',
           description: 'The goal of this project was to build an application that allows a user to set goals for their health and productivity, tied to an amount of time. Users will select an activity category, set the amount of time they want to spend on that activity, and start the timer. The app will log that activity to keep track of how the user has been spending their time.',
           tech: ['JavaScript', 'React', 'CSS'],
